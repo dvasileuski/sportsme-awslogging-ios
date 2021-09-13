@@ -14,7 +14,7 @@ class LogsModel: Object {
     @objc dynamic var timestamp: Int = 0
     @objc dynamic var isUploading: Bool = false
     
-    required init() {
+    required override init() {
         super.init()
     }
     
